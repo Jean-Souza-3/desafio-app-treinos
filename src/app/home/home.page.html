@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Treinos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h6 class="text-center mt-5">Guarde seus treinos sempre com você!!</h6>
+  <form (submit)="adicionarAtividade()">
+    <ion-item class="mt-5 mb-5">
+      <ion-label position="floating">Nome atividade:</ion-label>
+      <ion-input [(ngModel)]="novaAtividade" name="novaAtividade"></ion-input>
+    </ion-item>
+    <ion-button type="submit" color="tertiary" expand="block" [disabled]="!novaAtividade">
+      Inserir
+    </ion-button>
+  </form>
+
+  <ion-list>
+    <ion-item-group *ngFor="let atividade of atividades; let casinha = index">
+      <ion-item-sliding (ionSwipe)="apagarAtividade(casinha)">
+        <ion-item>
+          <ion-label>{{ casinha+1 }}- {{ atividade.nome }}</ion-label>
+          <div class="kg">
+            <input [(ngModel)]="atividade.peso" (change)="atualizarAtividade()" type="number" slot="end">
+          </div>
+        </ion-item>
+        <ion-item-options side="end"></ion-item-options>
+      </ion-item-sliding>
+    </ion-item-group>
+  </ion-list>
+</ion-content>

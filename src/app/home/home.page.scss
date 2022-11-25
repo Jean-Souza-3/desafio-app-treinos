@@ -1,0 +1,20 @@
+.kg {
+    position: relative;
+    display: inline-block;
+
+    input {
+        width: 100px;
+    }
+}
+
+.kg::after {
+    content: 'kg';
+    font-family: sans-serif;
+    width: 1.5em;
+    height: 1em;
+    position: absolute;
+    top: 40%;
+    right: 5px;
+
+    transform: translateY(-50%);
+}
