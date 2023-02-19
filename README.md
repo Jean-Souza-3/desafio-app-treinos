@@ -30,5 +30,3 @@ Esse projeto foi desenvolvido para aperfeiçoar o conhecimento em desenvolviment
         ```
         ionic serve -o
         ```
-          
-## :framed_picture:Gifs
