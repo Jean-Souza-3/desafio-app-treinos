@@ -18,17 +18,17 @@ Esse projeto foi desenvolvido para aperfeiçoar o conhecimento em desenvolviment
 
     1. Clone o projeto no local desejado:
         ```
-        git clone https://github.com/Jean-Souza-3/desafio-automationCypress.git
+        git clone https://github.com/Jean-Souza-3/desafio-app-treinos.git
         ```
 
-    2. Instale as dependências do cypress:
+    2. Instale as dependências:
         ```
-        npm install cypress
+        npm install
         ```
     
     3. Comando para rodar o projeto:
         ```
-        npx cypress open
+        ionic serve -o
         ```
           
 ## :framed_picture:Gifs
