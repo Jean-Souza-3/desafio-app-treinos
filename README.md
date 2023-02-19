@@ -5,10 +5,12 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 * Typescript
+* Ionic
+* Angular
 
 ## :computer:Projeto
 
-Esse projeto foi desenvolvido para aperfeiçoar o conhecimento em automação de testes com Cypress, usando suas estruturas fixtures, page object e criação de massa de dados.
+Esse projeto foi desenvolvido para aperfeiçoar o conhecimento em desenvolvimento mobile, utilizando os frameworks Ionic e Angular
 
 ## :floppy_disk:Instalação
 
