@@ -30,3 +30,7 @@ Esse projeto foi desenvolvido para aperfeiçoar o conhecimento em desenvolviment
         ```
         ionic serve -o
         ```
+
+## :framed_picture:Gif
+
+![YouCut_20230224_133810235](https://user-images.githubusercontent.com/100387707/221242664-2cf1b479-99b2-4de8-bbb8-7e9f568808d7.gif)
